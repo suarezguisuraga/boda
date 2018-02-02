@@ -1,0 +1,7 @@
+[submodule "themes\\split"]
+	path = themes\\split
+	url = https://github.com/christianmendoza/hugo-split-theme.git
+[submodule "public"]
+	path = public
+	url = https://github.com/sguisu/sguisu.github.io
+	branch = master

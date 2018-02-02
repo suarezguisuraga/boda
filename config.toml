@@ -1,0 +1,309 @@
+# Site settings
+baseurl = "https://www.suarezguisuraga.com"
+languageCode = "es-ES"
+title = "Nadine y Ángel"
+theme = "hugo-agency-theme"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Angel Suarez Nadine Heidrich"
+  description = "Boda"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "¡Nos casamos!"
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    services = "La boda"
+    about = "Nuestra historia"
+    team = "Nosotros"
+    contact = "Contacto"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://1drv.ms/a/s!Al76FgPu2tLSgfMJWLnIINC6i_JASA"
+      name = "Fotos"
+      weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Nadine y Ángel"
+    subtitle = "20 de Julio de 2018"
+    buttonText = "Quiero saber más"
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Boda"
+    subtitle = "En esta sección encontraréis información importante sobre la finca, sobre León, y sobre el plan para el día de la boda."
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-home"
+      title = "La finca"
+      description = "Celebraremos la boda a 15 minutos en coche del centro de León, en una finca que se llama el <a href='https://goo.gl/maps/vioEXuP8Xq12' target='_blank'>Molino de los Ajos.</a> El 20 de Julio de 2018 estará reservado en exclusiva para nosotros y la ceremonia comenzará a las 19:00, con la idea de festejar todos juntos hasta la madrugada. <br/>Hemos reservado un servicio de autobús que saldrá del <a href='https://goo.gl/maps/BFpJmoRREKE2' target='_blank'>Hotel Conde Luna</a> a las <b>18:30 (por favor sed puntuales)</b> y dos autobuses de vuelta, uno sobre la 01:00 y otro alrededor de las 05:00."
+      #url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-calendar"
+      title = "El plan"
+      description = "Como no queremos destripar el plan y dejar alguna sorpresa para el día de la boda, sólo diremos un par de cositas: <br/>Nada más llegar, sobre las 19:00, tendremos una pequenia celebración en la finca y acto seguido tendremos un cocktail. <br/><b>Importante</b> - Por desgracia en la finca no nos dejan tirar el tradicional arroz, así que os daremos unas bolsitas con flores naturales con las que nos podréis poner perdidos. <br/>Sobre las 21:30 nos sentaremos a cenar y al terminar os deleitaremos con nuestro arte en el primer baile."
+      #url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-map"
+      title = "León"
+      description = "Según nuestras cuentas venís de fuera más de 50 personas (váis a invadir León), así que en <a href='https://1drv.ms/w/s!Al76FgPu2tLSgekoBccUtnu79cn1ag' target='_blank'>este enlace</a> tenéis toda la información sobre hoteles, monumentos y rutas que os enviamos hace tiempo en un correo. <br/>Si os quedáis durante del fin de semana, nos gustaría salir a tomar algo con vosotros el sábado por la noche por León y descubrir la ciudad. Somos conscientes de los problemas que podéis tener a la hora del alojamiento, así que si tenéis cualquier duda, por favor escribidnos un correo a <a href='mailto:suarezguisuraga@gmail.com'>suarezguisuraga@gmail.com</a> o usando el formulario de contacto de abajo."
+      #url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-spotify"
+      title = "La música"
+      description = "Después del primer baile dará comienzo la fiesta (chicas llevad zapatos para no parar de bailar en toda la noche). Queremos que participéis de la música, así que podéis anadir alguna canción a la lista que hemos creado en este <a href='https://open.spotify.com/user/sguisu/playlist/2ptH4XgnSYfXeRkrra3iZD?si=zq9AU7S1QsaCkTXkNNsF6w' target='_blank'>enlace de Spotify</a>."
+
+    [[params.services.row.list]]
+      icon = "fa-photo"
+      title = "Las fotos"
+      description = "Hemos creado un álbum de fotos (en el que hemos subido ya alguna foto nuestra) y en el que os pediremos que en el día de la boda (o los días de antes y después) subáis todas las fotos de vuestras cámaras o móviles. Intentaremos limpiarlo de fotos no apropiadas, pero nos gustaría que fuera un lugar donde todos los invitados de la boda con este enlace puedan tener acceso a todos esos momentos que no queremos se pierdan. Sólo las personas con el enlace tendrán acceso a las fotos y las fotos no saldrán en ningún buscador. El álbum está en <a href='https://1drv.ms/a/s!Al76FgPu2tLSgfMJWLnIINC6i_JASA' target='_blank'>OneDrive</a> y debería tener espacio de sobra para todas vuestras fotos o vídeos. Por si el día de la boda no encontráis el enlace, hemos puesto un enlace rápido en el menú de arriba."
+
+    # About section
+  [params.about]
+    enable = true
+    title = "Nuestra historia"
+    #subtitle = ""
+    endpoint = "Y la historia sigue ahora junto con vosotros"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "Agosto 1982"
+      title = "Ángel"
+      description = "Ángel nace en 1982, el año del mundial de fútbol, del 'Thriller' de Michael Jackson y de la peli de E.T. <br/>Ese año también lo petaba 'Como una ola' de la Jurado..."
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "Febrero 1986"
+      title = "Nadine"
+      description = "Todavía bajo el telón de acero, Nadine llega en 1986 a Karl-Marx-Stadt (actualmente Chemnitz). En la RDA poco había cambiado desde los 70. <br/>Trabbis en las calles y bocadillos de Banana."
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "2004"
+      title = "Nadine y España"
+      description = "Después de interesarse unos cuantos años por la cultura española, Nadine decide irse a Madrid de Au Pair. Allí mejora su español y descubre las tapas y la fiesta, y le gusta tanto que decide quedarse un año más."
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "2015"
+      title = "Ángel y Madrid"
+      description = "Al acabar la carrera, Ángel encuentra trabajo en Madrid de consultor. Trabaja mucho y apenas tiene tiempo para divertirse, sobre todo teniendo en cuenta que casi todos los fines de semana se vuelve a su querido León, donde todo sigue como siempre..."
+
+    [[params.about.events]]
+      img = "5.jpg"
+      date = "Marzo 2016"
+      title = "Casa de la cerveza"
+      description = "Nadine frecuentaba por aquel entonces lugares madrileños auténticos (con mucha cerveza) y Ángel salía con sus companieros de piso y de trabajo. Y en Marzo de 2006, en un bar cutre de Madrid es cuando sucedió: un grupo de Alemanas Vs. un grupo de Españoles, y entre tanta gente, Nadine y Ángel por fin se conocen."
+
+    [[params.about.events]]
+      img = "6.jpg"
+      date = "2006 y 2007"
+      title = "Primera parte"
+      description = "Unos meses de verano en Madrid, algún fin de semana en León, vuelos a Mannheim donde Nadine comenzó a estudiar, fines de semana en Barcelona, más fines de semana y una historia de 2 años irrepetible llena de momentos mágicos. Pero a veces no todo lo bueno dura para siempre..."
+
+    [[params.about.events]]
+      img = "7.jpg"
+      date = "2014 - 2017"
+      title = "Segunda parte"
+      description = "Muchos años separados, muchas ciudades recorridas y muchas amistades irrepetibles que quedarán para siempre - Barcelona, Málaga, Regensburg, Múnich, Zúrich, Berlin. Pero Nadine siempre será Nadine y Ángel siempre será Ángel. <br/>Y cuando 2014 terminaba, una llamada lo cambió todo, y la historia volvió a comenzar."
+
+    [[params.about.events]]
+      img = "8.jpg"
+      date = "Sicilia 2017"
+      title = "La pedida"
+      description = "Y después de 3 años de la segunda parte, estaba claro que la historia iba en serio.<br/>Sin decírselo apenas a nadie, Ángel había organizado algo especial en un viaje por Sicilia, en Taormina. Y allí, delante del monte Etna y del Mediterráneo, se arrodilló e hizo la pregunta.<br/>Pregunta a la que Nadine respondió con un 'Sí'."
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Nosotros"
+    subtitle = "No nos queríamos enrollar mucho, pero además de nuestra historia, nos gustaría que supiéseis (en caso de que no lo sepáis ya) quiénes somos, nuestros gustos y manías. También podéis encontrar un par de enlaces a nuestras redes sociales."
+    description = ""
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Nadine"
+      position = "La novia, Naddl"
+      #reportsTo = "aka Naddl"
+      #livesIn = "aka Naddl"
+      #scope = [
+      #  "UX for [member dashboard](#)",
+      #  "Maintainer for [awesome-project](#)",
+      #  "Open Source [community management](#)"
+      #]
+      # For bio markdown and even multiline strings are available.
+      bio = """Le gustan los colores claros. Le encanta la comida sana y cualquier tipo de té de hierbas. Eso sí, evita el té verde. 
+      Bebe gin-tonic y vino blanco seco. Le encanta la naturaleza y el sol. Come poca carne, aunque le encanta el pescado a la plancha.
+      Es muy buena haciendo regalos y no le gustan las cosas caras.
+      Odia el color naranja. Es perfeccionista. Escucha reggeaton y música latina (no, no es broma).
+      Cuando habla delante de gente desconocida se pone extremadamente roja."""
+      social = [
+        ["fa-facebook", "https://www.facebook.com/nadine.heidrich.75"],
+        ["fa-phone", "tel:004917696900725"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Ángel"
+      position = "El novio, Guisu, Pichu"
+      #reportsTo = "aka Guisu, Pichu"
+      #livesIn = "aka Guisu, Pichu"
+      bio = """Su color es el verde. Bebe cerveza artesanal y bourbon. Le encanta todo tipo de comida de calidad, excepto el hígado - odia el hígado.
+      Le cuesta concentrarse en un solo tema. Echa de menos el sol leonés con temperaturas bajo cero y las montañas. No le gustan los fanatismos de cualquier clase ni las pseudociencias.
+      Escucha buen rock y punk de los 90. Sus ironías le han llevado a más de un malentendido."""
+      social = [
+        ["fa-twitter", "https://twitter.com/sguisu"],
+        ["fa-instagram", "https://www.instagram.com/elguisu"],
+        ["fa-whatsapp", "tel:0034609282042"],
+        ["fa-phone", "tel:004915168812734"]
+      ]
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contacto"
+    subtitle  = "Si tenéis dudas o sugerencias podéis escribirnos a <a href='mailto:suarezguisuraga@gmail.com'>suarezguisuraga@gmail.com</a>, al <a href='tel:0034609282042'>WhatsApp de Ángel</a> o usar el formulario de abajo."
+    buttonText = "Enviar"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "suarezguisuraga@gmail.com"
+
+    # Success and error message overwrite for async contact form
+    thanks = "¡Gracias por tu mensaje!"
+    error = "¡Ups! No se pudo enviar tu mensaje, inténtalo de nuevo usando suarezguisuraga@gmail.com."
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Nombre *"
+      warning = "Que metas tu nombre..."
+
+    [params.contact.form.email]
+      text = "Email *"
+      warning = "Que metas tu email..."
+
+    [params.contact.form.phone]
+      text = "Teléfono *"
+      warning = "Que metas tu teléfono..."
+
+    [params.contact.form.message]
+      text = "Mensaje *"
+      warning = "Que dejes un mensaje..."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = false
+    copyright = "Publicado bajo licencia Apache 2.0"
+
+    #[[params.footer.social]]
+    #  icon = "fa-twitter"
+    #  link = "#"
+    #  title = "Twitter"
+
+    #[[params.footer.social]]
+    #  icon = "fa-facebook"
+    #  link = "#"
+    #  title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/digitalcraftsman/hugo-agency-theme"
+      title = "Theme Agency"
+
+    [[params.footer.quicklinks]]
+      text = "Diseñado por Ángel con <a href='https://gohugo.io'>Hugo</a> y alojado sin coste en <a href='https://pages.github.com/'>GitHub Pages</a>"
+    #  link = "http://www.suarezguisuraga.com"
+
+    #[[params.footer.quicklinks]]
+    #  text = "Terms of Use"
+    #  link = "#"
