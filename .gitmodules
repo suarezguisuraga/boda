@@ -3,5 +3,5 @@
 	url = https://github.com/christianmendoza/hugo-split-theme.git
 [submodule "public"]
 	path = public
-	url = https://github.com/sguisu/sguisu.github.io
+	url = git@github.com:suarezguisuraga/suarezguisuraga.github.io.git
 	branch = master
