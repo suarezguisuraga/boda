@@ -1,9 +1,8 @@
 # Site settings
-baseurl = "https://suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/"
+baseurl = "https://suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/es"
 languageCode = "es-ES"
 title = "Nadine y Ángel"
 theme = "hugo-agency-theme"
-uglyUrls = true
 
 # Enter your tracking code to enable Google Analytics
 #googleAnalytics = ""
@@ -66,7 +65,7 @@ uglyUrls = true
 
     # postpended links
     [[menu.postpend]]
-      url = "https://1drv.ms/a/s!Al76FgPu2tLSgfMJWLnIINC6i_JASA"
+      url = "https://1drv.ms/f/s!Al76FgPu2tLSgoILw40VDmYgjHTYzw"
       name = "Fotos"
       weight = 10
 
@@ -114,14 +113,14 @@ uglyUrls = true
     [[params.services.row.list]]
       icon = "fa-photo"
       title = "Las fotos"
-      description = "Hemos creado un álbum de fotos (en el que hemos subido ya alguna foto nuestra) y en el que os pediremos que en el día de la boda (o los días de antes y después) subáis todas las fotos de vuestras cámaras o móviles. Intentaremos limpiarlo de fotos no apropiadas, pero nos gustaría que fuera un lugar donde todos los invitados de la boda con este enlace puedan tener acceso a todos esos momentos que no queremos se pierdan. Sólo las personas con el enlace tendrán acceso a las fotos y las fotos no saldrán en ningún buscador. El álbum está en <a href='https://1drv.ms/a/s!Al76FgPu2tLSgfMJWLnIINC6i_JASA' target='_blank'>OneDrive</a> y debería tener espacio de sobra para todas vuestras fotos o vídeos. Por si el día de la boda no encontráis el enlace, hemos puesto un enlace rápido en el menú de arriba."
+      description = "Hemos creado un álbum de fotos (en el que hemos subido ya alguna foto nuestra) y en el que os pediremos que en el día de la boda (o los días de antes y después) subáis todas las fotos de vuestras cámaras o móviles. Intentaremos limpiarlo de fotos no apropiadas, pero nos gustaría que fuera un lugar donde todos los invitados de la boda con este enlace puedan tener acceso a todos esos momentos que no queremos se pierdan. Sólo las personas con el enlace tendrán acceso a las fotos y las fotos no saldrán en ningún buscador. El álbum está en <a href='https://1drv.ms/f/s!Al76FgPu2tLSgoILw40VDmYgjHTYzw' target='_blank'>OneDrive</a> y debería tener espacio de sobra para todas vuestras fotos o vídeos. Por si el día de la boda no encontráis el enlace, hemos puesto un enlace rápido en el menú de arriba."
 
     # About section
   [params.about]
     enable = true
     title = "Nuestra historia"
     #subtitle = ""
-    endpoint = "Y la historia sigue ahora junto con vosotros"
+    endpoint = "y ahora de boda"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -178,7 +177,7 @@ uglyUrls = true
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Nosotros"
     subtitle = "No nos queríamos enrollar mucho, pero además de nuestra historia, nos gustaría que supiéseis (en caso de que no lo sepáis ya) quiénes somos, nuestros gustos y manías. También podéis encontrar un par de enlaces a nuestras redes sociales."
     description = ""
@@ -190,13 +189,6 @@ uglyUrls = true
       img = "1.jpg"
       name = "Nadine"
       position = "La novia, Naddl"
-      #reportsTo = "aka Naddl"
-      #livesIn = "aka Naddl"
-      #scope = [
-      #  "UX for [member dashboard](#)",
-      #  "Maintainer for [awesome-project](#)",
-      #  "Open Source [community management](#)"
-      #]
       # For bio markdown and even multiline strings are available.
       bio = """Le gustan los colores claros. Le encanta la comida sana y cualquier tipo de té de hierbas. Eso sí, evita el té verde. 
       Bebe gin-tonic y vino blanco seco. Le encanta la naturaleza y el sol. Come poca carne, aunque le encanta el pescado a la plancha.
@@ -212,8 +204,6 @@ uglyUrls = true
       img = "2.jpg"
       name = "Ángel"
       position = "El novio, Guisu, Pichu"
-      #reportsTo = "aka Guisu, Pichu"
-      #livesIn = "aka Guisu, Pichu"
       bio = """Su color es el verde. Bebe cerveza artesanal y bourbon. Le encanta todo tipo de comida de calidad, excepto el hígado - odia el hígado.
       Le cuesta concentrarse en un solo tema. Echa de menos el sol leonés con temperaturas bajo cero y las montañas. No le gustan los fanatismos de cualquier clase ni las pseudociencias.
       Escucha buen rock y punk de los 90. Sus ironías le han llevado a más de un malentendido."""
@@ -222,6 +212,16 @@ uglyUrls = true
         ["fa-instagram", "https://www.instagram.com/elguisu"],
         ["fa-whatsapp", "tel:+34609282042"],
         ["fa-phone", "tel:+4915168812734"]
+      ]
+
+      [[params.team.members]]
+      img = "3.jpg"
+      name = "Ángel y Nadine"
+      position = "La pareja"
+      bio = """Se conocen desde hace 12 años. Les encanta viajar y han estado en los últimos meses en Colombia, Vietnam, Holanda, Reino Unido y Cuba. Viven en Berlín, y aunque echan de menos el sol español, 
+      disfrutan de la ciudad y de sus innumerables restaurantes. Tienen un bonito piso al este de la ciudad con una habitación de invitados para todo el que quiera descubrir la capital alemana."""
+      social = [
+        ["fa-send", "mailto:suarezguisuraga@gmail.com"]
       ]
 
   # Contact section
@@ -272,39 +272,3 @@ uglyUrls = true
       text = "Mensaje *"
       warning = "Que dejes un mensaje..."
 
-      # Add optional form fields to identify contact forms
-      #[[params.contact.form.hidden]]
-      #  name = "someID"
-      #  value = "example.com"
-      #
-      #[[params.contact.form.hidden]]
-      # Special values for name such as "page" and "site" will be autofilled
-      #  name = "page"
-
-  # Footer section
-  [params.footer]
-    enable = false
-    copyright = "Publicado bajo licencia Apache 2.0"
-
-    #[[params.footer.social]]
-    #  icon = "fa-twitter"
-    #  link = "#"
-    #  title = "Twitter"
-
-    #[[params.footer.social]]
-    #  icon = "fa-facebook"
-    #  link = "#"
-    #  title = "Facebook"
-
-    [[params.footer.social]]
-      icon = "fa-github"
-      link = "https://github.com/digitalcraftsman/hugo-agency-theme"
-      title = "Theme Agency"
-
-    [[params.footer.quicklinks]]
-      text = "Diseñado por Ángel con <a href='https://gohugo.io'>Hugo</a> y alojado sin coste en <a href='https://pages.github.com/'>GitHub Pages</a>"
-    #  link = "http://www.suarezguisuraga.com"
-
-    #[[params.footer.quicklinks]]
-    #  text = "Terms of Use"
-    #  link = "#"
