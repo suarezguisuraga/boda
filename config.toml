@@ -1,8 +1,9 @@
 # Site settings
-baseurl = "https://suarezguisuraga.github.io/"
+baseurl = "https://suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/"
 languageCode = "es-ES"
 title = "Nadine y Ángel"
 theme = "hugo-agency-theme"
+uglyUrls = true
 
 # Enter your tracking code to enable Google Analytics
 #googleAnalytics = ""
@@ -204,7 +205,7 @@ theme = "hugo-agency-theme"
       Cuando habla delante de gente desconocida se pone extremadamente roja."""
       social = [
         ["fa-facebook", "https://www.facebook.com/nadine.heidrich.75"],
-        ["fa-phone", "tel:004917696900725"]
+        ["fa-phone", "tel:+4917696900725"]
       ]
 
     [[params.team.members]]
@@ -219,15 +220,15 @@ theme = "hugo-agency-theme"
       social = [
         ["fa-twitter", "https://twitter.com/sguisu"],
         ["fa-instagram", "https://www.instagram.com/elguisu"],
-        ["fa-whatsapp", "tel:0034609282042"],
-        ["fa-phone", "tel:004915168812734"]
+        ["fa-whatsapp", "tel:+34609282042"],
+        ["fa-phone", "tel:+4915168812734"]
       ]
 
   # Contact section
   [params.contact]
     enable = true
     title = "Contacto"
-    subtitle  = "Si tenéis dudas o sugerencias podéis escribirnos a <a href='mailto:suarezguisuraga@gmail.com'>suarezguisuraga@gmail.com</a>, al <a href='tel:0034609282042'>WhatsApp de Ángel</a> o usar el formulario de abajo."
+    subtitle  = "Si tenéis dudas o sugerencias podéis escribirnos a <a href='mailto:suarezguisuraga@gmail.com'>suarezguisuraga@gmail.com</a>, al <a href='tel:+34609282042'>WhatsApp de Ángel</a> o usar el formulario de abajo."
     buttonText = "Enviar"
 
     # Since this template is static, the contact form uses www.formspree.io as a
