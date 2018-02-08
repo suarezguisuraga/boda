@@ -1,11 +1,11 @@
 # Site settings
-baseurl = "http://suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/es"
+baseurl = "http://www.suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/es"
 languageCode = "es-ES"
 title = "Nadine y Ángel"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-#googleAnalytics = ""
+googleAnalytics = "UA-113792588-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -22,7 +22,7 @@ theme = "hugo-agency-theme"
 
   # Link custom assets relative to /static
   custom_css = []
-  custom_js  = []
+  custom_js  = ["/js/securitycheck.js"]
   favicon    = "favicon.ico"
 
   # Possibility to disable external/additional fonts
@@ -33,15 +33,6 @@ theme = "hugo-agency-theme"
   [params.error404]
     heading = "Page couldn't be found"
     text = "Please visit [this page](/)"
-
-  # Optional piwik tracking
-  #[params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
 
   # Navigation
   [params.navigation]
@@ -59,7 +50,7 @@ theme = "hugo-agency-theme"
 
     # prepended links
     [[menu.prepend]]
-      url = "http://suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/de"
+      url = "http://www.suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/de"
       name = "Deutsch"
       weight = 10
 

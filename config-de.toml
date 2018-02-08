@@ -1,11 +1,11 @@
 # Site settings
-baseurl = "http://suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/de"
+baseurl = "http://www.suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/de"
 languageCode = "de-DE"
 title = "Nadine und Ángel"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-#googleAnalytics = ""
+googleAnalytics = "UA-113792588-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -22,7 +22,7 @@ theme = "hugo-agency-theme"
 
   # Link custom assets relative to /static
   custom_css = []
-  custom_js  = []
+  custom_js  = ["/js/securitycheck.js"]
   favicon    = "favicon.ico"
 
   # Possibility to disable external/additional fonts
@@ -33,15 +33,6 @@ theme = "hugo-agency-theme"
   [params.error404]
     heading = "Page couldn't be found"
     text = "Please visit [this page](/)"
-
-  # Optional piwik tracking
-  #[params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
 
   # Navigation
   [params.navigation]
@@ -59,7 +50,7 @@ theme = "hugo-agency-theme"
 
     # prepended links
     [[menu.prepend]]
-      url = "http://suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/es"
+      url = "http://www.suarezguisuraga.com/dGhpcyBpcyBqdXN0IGEgYmFzZTY0IHN0cmluZw==/es"
       name = "Español"
       weight = 10
 
@@ -76,7 +67,7 @@ theme = "hugo-agency-theme"
     # the 'static/img' folder.
     title = "Nadine und Ángel"
     subtitle = "20. Juli 2018"
-    buttonText = "Ich möchte mehr erfahren"
+    buttonText = "Mehr erfahren"
 
 
   # Services section
@@ -94,7 +85,7 @@ theme = "hugo-agency-theme"
       #url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-home"
+      icon = "fa-calendar"
       title = "Ablauf"
       description = "Die Hochzeitsfeier wird in der Finca <a href='https://goo.gl/maps/vioEXuP8Xq12' target='_blank'>El Molino de los Ajos</a> stattfinden, 15 Autominuten vom Zentrum Leóns entfernt. Am 20. Juli 2018 ist sie exklusiv für uns reserviert sein. <br/>Die Zeremonie beginnt um 19:00 Uhr und die Hochzeitsparty endet in den frühen Morgenstunden. Wir haben einen Busservice für euch reserviert, welcher vom <a href='https://goo.gl/maps/BFpJmoRREKE2' target='_blank'>Hotel Conde Luna</a> um 18:30 Uhr abfährt. Gebt uns bitte vorher Bescheid, ob ihr den Busservice in Anspruch nehmen werdet, damit wir eine Passagierliste für das Busunternehmen vorbereiten können. Seid bitte ca. 15 Minuten vor Abfahrt vor Ort, um sicher zu gehen, dass alle Gäste an Bord sind.<br/> Nach der Ankunft um etwa 19:00 Uhr wird es eine kleine Zeremonie unter freiem Himmel geben gefolgt von einem tollen Aperitif. Gegen 21:30 Uhr wird das Abendessen beginnen und nach dem Dessert und dem traditionellen Tortenanschnitt werden wir euch bei unserem ersten Tanz mit unseren Tanzkünsten beglücken.<br/> Zurück zum Hotel Conde Luna wird es zwei Shuttlebusse geben: Einer fährt gegen 01:30 Uhr morgens ab (nach unserem ersten Tanz) und der zweite am Ende der Feier, ca. gegen 05:00 Uhr."
       #url = "#"
