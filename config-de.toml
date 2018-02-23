@@ -81,7 +81,7 @@ googleAnalytics = "UA-113792588-1"
     [[params.services.row.list]]
       icon = "fa-map"
       title = "León"
-      description = "Wir rechnen damit, dass mehr als 50 Gäste von außerhalb kommen (ihr werdet León erobern!), deshalb findet ihr <a href='https://1drv.ms/w/s!Al76FgPu2tLSgekoBccUtnu79cn1ag' target='_blank'>hier</a> alle wichtigen Infos zu Unterkünften, wichtigen Sehenswürdigkeiten undRouten der Stadt, die wir euch bereits vor einiger Zeit per Email geschickt hatten. Wenn ihr über das Wochenende in León bleibt, gehen wir gern mit euch am Samstagabend aus und entdecken gemeinsam die Stadt. Damit ihr León auch auf eigene Faust unsicher machen könnt, haben wir euch Routen mit unseren Empfehlungen zu den besten <a>Sehenswürdigkeiten</a> und den besten <a>Bars und Restaurants</a> vorbereitet. Wahrscheinlich werdet ihr Fragen zu den Unterkünften oder Unternehmungen in León haben, die wir gern beantworten. Meldet euch einfach per Email an <a href='mailto:suarezguisuraga@gmail.com'>suarezguisuraga@gmail.com</a> oderüber das Kontaktformular auf dieser Seite."
+      description = "Wir rechnen damit, dass mehr als 50 Gäste von außerhalb kommen (ihr werdet León erobern!), deshalb findet ihr <a href='https://1drv.ms/w/s!Al76FgPu2tLSgekoBccUtnu79cn1ag' target='_blank'>hier</a> alle wichtigen Infos zu Unterkünften, wichtigen Sehenswürdigkeiten und Routen der Stadt, die wir euch bereits vor einiger Zeit per Email geschickt hatten. Wenn ihr über das Wochenende in León bleibt, gehen wir gern mit euch am Samstagabend aus und entdecken gemeinsam die Stadt. Damit ihr León auch auf eigene Faust unsicher machen könnt, haben wir euch Routen mit unseren Empfehlungen zu den besten <a href='https://goo.gl/maps/GkABUTqRLQ82' target='blank'>Sehenswürdigkeiten</a> und den besten <a href='https://goo.gl/maps/reVHpPuWd912' target='blank'>Bars und Tapas</a> vorbereitet. Wahrscheinlich werdet ihr Fragen zu den Unterkünften oder Unternehmungen in León haben, die wir gern beantworten. Meldet euch einfach per Email an <a href='mailto:suarezguisuraga@gmail.com'>suarezguisuraga@gmail.com</a> oderüber das Kontaktformular auf dieser Seite."
       #url = "#"
 
     [[params.services.row.list]]
@@ -195,8 +195,7 @@ googleAnalytics = "UA-113792588-1"
       social = [
         ["fa-twitter", "https://twitter.com/sguisu"],
         ["fa-instagram", "https://www.instagram.com/elguisu"],
-        ["fa-whatsapp", "tel:+34609282042"],
-        ["fa-phone", "tel:+4915168812734"]
+        ["fa-whatsapp", "tel:+34609282042"]
       ]
 
       [[params.team.members]]
